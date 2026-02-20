@@ -1,0 +1,351 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Zona Halcones",
+        "fill": "#FFA500",
+        "stroke": "#FFA500",
+        "stroke-width": 2,
+        "fill-opacity": 0.5
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -77.0183368,
+              -11.9807889
+            ],
+            [
+              -77.0130607,
+              -11.9732412
+            ],
+            [
+              -77.0099971,
+              -11.9751281
+            ],
+            [
+              -77.0151598,
+              -11.9827312
+            ],
+            [
+              -77.0183261,
+              -11.9807911
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "zone_label",
+        "label": "HALCONES",
+        "color": "black",
+        "font-weight": "bold",
+        "fontSize": "18px",
+        "rotation": -55
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0141386,
+          -11.9779724
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Zona DIVOPUS E1",
+        "fill": "#FFA500",
+        "stroke": "#FFA500",
+        "stroke-width": 2,
+        "fill-opacity": 0.5
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -77.008034,
+              -11.9802621
+            ],
+            [
+              -77.0126757,
+              -11.9900834
+            ],
+            [
+              -77.0096485,
+              -11.9911691
+            ],
+            [
+              -77.0050068,
+              -11.9814959
+            ],
+            [
+              -77.0079944,
+              -11.9802293
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "zone_label",
+        "label": "DIVOPUS E1",
+        "color": "black",
+        "font-weight": "bold",
+        "fontSize": "18px",
+        "rotation": -68
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0088413,
+          -11.9857526
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Zona DIVEME E1",
+        "fill": "#FFA500",
+        "stroke": "#FFA500",
+        "stroke-width": 2,
+        "fill-opacity": 0.5
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -76.9962527,
+              -11.9942476
+            ],
+            [
+              -76.9916947,
+              -11.9859384
+            ],
+            [
+              -76.9886387,
+              -11.9874584
+            ],
+            [
+              -76.9930413,
+              -11.9957676
+            ],
+            [
+              -76.9962908,
+              -11.9942447
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "zone_label",
+        "label": "DIVEME E1",
+        "color": "black",
+        "font-weight": "bold",
+        "fontSize": "18px",
+        "rotation": -65
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.9924069,
+          -11.990853
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Zona SUB RUTA 3",
+        "fill": "#3399FF",
+        "stroke": "#3399FF",
+        "stroke-width": 2,
+        "fill-opacity": 0.5
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -77.0097413,
+              -12.0123835
+            ],
+            [
+              -77.0099505,
+              -12.0141491
+            ],
+            [
+              -77.006117,
+              -12.0146208
+            ],
+            [
+              -77.0026452,
+              -12.0149981
+            ],
+            [
+              -77.0025729,
+              -12.0141255
+            ],
+            [
+              -77.0025005,
+              -12.0134417
+            ],
+            [
+              -77.0097665,
+              -12.0123843
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "zone_label",
+        "label": "SUB RUTA 3",
+        "color": "black",
+        "font-weight": "bold",
+        "fontSize": "14px",
+        "rotation": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0062255,
+          -12.0136908
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Zona SUB RUTA 2",
+        "fill": "#D3D3D3",
+        "stroke": "#D3D3D3",
+        "stroke-width": 2,
+        "fill-opacity": 0.5
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -77.0058223,
+              -11.9852621
+            ],
+            [
+              -77.0008328,
+              -11.9867916
+            ],
+            [
+              -77.0010585,
+              -11.9874776
+            ],
+            [
+              -77.001253,
+              -11.988054
+            ],
+            [
+              -77.0063926,
+              -11.9864365
+            ],
+            [
+              -77.0058223,
+              -11.9852914
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "zone_label",
+        "label": "SUB RUTA 2",
+        "color": "black",
+        "font-weight": "bold",
+        "fontSize": "16px",
+        "rotation": 15
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0036127,
+          -11.986658
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Zona SUB RUTA 1",
+        "fill": "#FFA500",
+        "stroke": "#FFA500",
+        "stroke-width": 2,
+        "fill-opacity": 0.2
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -76.9977775,
+              -11.9644345
+            ],
+            [
+              -76.998879,
+              -11.9657649
+            ],
+            [
+              -76.9931825,
+              -11.9700659
+            ],
+            [
+              -76.9927571,
+              -11.9695109
+            ],
+            [
+              -76.9921661,
+              -11.9688172
+            ],
+            [
+              -76.9977775,
+              -11.9644386
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "zone_label",
+        "label": "SUB RUTA 1",
+        "color": "black",
+        "font-weight": "bold",
+        "fontSize": "16px",
+        "rotation": 35
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.995522,
+          -11.967250
+        ]
+      }
+    }
+  ]
+}
