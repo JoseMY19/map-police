@@ -12,8 +12,8 @@ const Login = ({ setIsAuth }) => {
   const handleSubmit = (e) => {
     e.preventDefault();
     // Utilizamos un fallback para asegurar que funcione sin recargar el servidor en desarrollo
-    const correctUsername = import.meta.env.VITE_APP_USERNAME || 'admin';
-    const correctPassword = import.meta.env.VITE_APP_PASSWORD || 'policia2026';
+    const correctUsername = import.meta.env.VITE_APP_USERNAME || 'efectivo';
+    const correctPassword = import.meta.env.VITE_APP_PASSWORD || 'policia*2026$';
 
     if (username.trim() === correctUsername && password.trim() === correctPassword) {
       setIsAuth(true);
@@ -38,20 +38,20 @@ const Login = ({ setIsAuth }) => {
 
       <div className="relative z-10 w-full max-w-md px-6">
         <div className="bg-white/5 backdrop-blur-2xl rounded-3xl shadow-[0_8px_32px_0_rgba(0,0,0,0.37)] border border-white/10 p-8 sm:p-10 transform transition-all">
-          
+
           <div className="text-center mb-10">
             <div className="inline-flex items-center justify-center w-28 h-28 rounded-full bg-gradient-to-br from-slate-800 to-indigo-900/50 mb-6 shadow-[inset_0_2px_20px_rgba(59,130,246,0.3)] border border-blue-500/30 overflow-hidden relative">
               {!imgError ? (
-                <img 
-                  src="/logo-policia.png" 
-                  alt="Logo Policía / Institución" 
+                <img
+                  src="/logo-policia.png"
+                  alt="Logo Policía / Institución"
                   className="w-full h-full object-cover p-2"
                   onError={() => setImgError(true)}
                 />
               ) : (
-                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-14 h-14 text-blue-400 drop-shadow-lg">
-                   <path fillRule="evenodd" d="M11.484 2.17a6.621 6.621 0 0 1 1.032 0 11.209 11.209 0 0 0 5.277 2.253.75.75 0 0 1 .593.737 40.407 40.407 0 0 1-1.096 11.047c-1.385 4.316-4.935 7.027-4.935 7.027a.75.75 0 0 1-.91 0s-3.55-2.711-4.936-7.027A40.41 40.41 0 0 1 5.614 5.16.75.75 0 0 1 6.207 4.42a11.209 11.209 0 0 0 5.277-2.253Zm-1.636 9.408a3.116 3.116 0 1 0 4.29-4.288 3.116 3.116 0 0 0-4.29 4.288Z" clipRule="evenodd" />
-                 </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-14 h-14 text-blue-400 drop-shadow-lg">
+                  <path fillRule="evenodd" d="M11.484 2.17a6.621 6.621 0 0 1 1.032 0 11.209 11.209 0 0 0 5.277 2.253.75.75 0 0 1 .593.737 40.407 40.407 0 0 1-1.096 11.047c-1.385 4.316-4.935 7.027-4.935 7.027a.75.75 0 0 1-.91 0s-3.55-2.711-4.936-7.027A40.41 40.41 0 0 1 5.614 5.16.75.75 0 0 1 6.207 4.42a11.209 11.209 0 0 0 5.277-2.253Zm-1.636 9.408a3.116 3.116 0 1 0 4.29-4.288 3.116 3.116 0 0 0-4.29 4.288Z" clipRule="evenodd" />
+                </svg>
               )}
             </div>
             <h1 className="text-3xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-300 tracking-tight">
@@ -61,7 +61,7 @@ const Login = ({ setIsAuth }) => {
               RUTAS DE PATRULLAJE
             </p>
             <p className="mt-2 text-sm text-slate-400 font-medium uppercase tracking-widest">
-                SAN JUAN DE LURIGANCHO
+              SAN JUAN DE LURIGANCHO
             </p>
           </div>
 
@@ -146,7 +146,7 @@ const Login = ({ setIsAuth }) => {
             </button>
           </form>
         </div>
-        
+
         <div className="mt-8 text-center">
           <p className="text-xs text-slate-500 font-medium tracking-wide">
             &copy; 2026 PNP - Uso Exclusivo Autorizado
